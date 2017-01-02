@@ -1,0 +1,102 @@
+.navbar {
+  background-color: #66512c;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #2aabd2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #000;
+}
+
+.nav > li > a {
+ border-top: solid black 2px;
+ border-bottom: solid black 2px;
+}
+
+.scrollUp {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 500;
+}
+
+.scrollUp img {
+  transform: rotate(270deg);
+  height: 40px;
+}
+
+.zajawka {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zajawka h1 {
+  padding: 20px;
+}
+
+.uslugi {
+  /*padding: 50px;*/
+  background-color: #c9e2b3;
+
+}
+
+.uslugi div {
+  text-align: justify;
+  padding: 30px;
+}
+
+.o_nas {
+
+}
+
+.o_nas div {
+  text-align: justify;
+  padding: 30px;
+}
+
+.cennik {
+  background-color: #c9e2b3;
+}
+
+.cennik h1 {
+
+}
+
+.srednie_firmy, .duze_firmy, .male_firmy {
+  /*height: 500px;*/
+  text-align: center;
+  /*padding: 30px;*/
+}
+
+.srednie_firmy {
+  background-color: indigo;
+}
+
+.duze_firmy {
+  background-color: peachpuff;
+}
+
+.male_firmy {
+  background-color: teal;
+}
+
+.kontakt {
+
+}
+
+footer {
+  background-color: #bce8f1;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+}
