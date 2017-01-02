@@ -94,6 +94,9 @@
 
 footer {
   background-color: #bce8f1;
+  padding: 15px;
+  border-top: solid 2px green;
+  text-align: center;
 }
 
 h1 {
