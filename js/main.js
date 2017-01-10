@@ -3,3 +3,5 @@ function scrollTo() {
   console.log('dupa');
   return false;
 }
+
+$(window).one('scroll', scrollTo)
